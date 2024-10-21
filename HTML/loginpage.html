@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+    <style>
+         body {
+            display: flex; /* Flexbox ile merkezi hizalama */
+            justify-content: center; /* Yatayda ortala */
+            align-items: center; /* Dikeyde ortala */
+            height: 100vh; /* Yüksekliği tam sayfa yap */
+            margin: 0; /* Varsayılan margin'i kaldır */
+            background-color: #282c34; /* Arka plan rengi */
+            color: white; /* Metin rengi */
+            font-family: Arial, sans-serif; /* Yazı tipi */
+            text-align: center; /* Metni merkeze hizala */
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Giriş Yap</h1>
+        <form action="form.html" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="E-posta adresinizi girin" required>
+            <br> <br>
+            <label for="password">Şifre:</label>
+            <input type="password" id="password" placeholder="Şifrenizi girin" required>
+            <br> <br> 
+            <input type="submit" value="Giriş Yap">
+            <input type="submit" value="Kayıt ol ">
+        </form>
+    </main>
+    
+</body>
+</html>
